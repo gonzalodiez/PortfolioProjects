@@ -123,7 +123,3 @@ Join PortfolioProject..CovidVaccinations$ vac
 	and dea.date=vac.date
 where dea.continent!='' OR dea.continent!=NULL
 --order by 1,2,3
-
-SELECT *
-FROM PercentPopulationVaccinated
-
